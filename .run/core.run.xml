@@ -1,0 +1,7 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="core" type="CompoundRunConfigurationType">
+    <toRun name="core-daemon" type="PythonConfigurationType" />
+    <toRun name="core-gui" type="PythonConfigurationType" />
+    <method v="2" />
+  </configuration>
+</component>

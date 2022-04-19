@@ -161,4 +161,6 @@ def main():
 
 
 if __name__ == "__main__":
+    import subprocess
+    subprocess.run(["/etc/init.d/ssh", "restart"])
     main()

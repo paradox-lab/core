@@ -377,23 +377,23 @@ def install_emane(c, emane_version, verbose=False, install_type=None):
     """
     install emane python bindings into the core virtual environment
     """
-    c.run("sudo -v", hide=True)
+    # c.run("sudo -v", hide=True)
     p = Progress(verbose)
     hide = not verbose
     os_info = get_os(install_type)
     with p.start("installing system dependencies"):
         if os_info.like == OsLike.DEBIAN:
             c.run(
-                "sudo apt install -y gcc g++ automake libtool libxml2-dev "
+                "apt install -y gcc g++ automake libtool libxml2-dev "
                 "libprotobuf-dev libpcap-dev libpcre3-dev uuid-dev pkg-config "
                 "protobuf-compiler git python3-protobuf python3-setuptools",
                 hide=hide,
             )
         elif os_info.like == OsLike.REDHAT:
             if os_info.name == OsName.CENTOS and os_info.version >= 8:
-                c.run("sudo yum config-manager --set-enabled PowerTools", hide=hide)
+                c.run("yum config-manager --set-enabled PowerTools", hide=hide)
             c.run(
-                "sudo yum install -y autoconf automake git libtool libxml2-devel "
+                "yum install -y autoconf automake git libtool libxml2-devel "
                 "libpcap-devel pcre-devel libuuid-devel make gcc-c++ protobuf-compiler "
                 "protobuf-devel python3-setuptools",
                 hide=hide,

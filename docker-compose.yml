@@ -1,0 +1,22 @@
+# 为在Pycharm调试开发专门编写的docker-compose
+version: "3.9"
+
+services:
+  daemon:
+    image: pycharm-core
+    container_name: core-daemon
+    environment:
+      - DISPLAY=:0
+    volumes:
+      - C:\lzx\core:/opt/project
+      - \\wsl.localhost\Ubuntu\tmp\.X11-unix:/tmp/.X11-unix
+#      - C:\Users\39713\AppData\Local\JetBrains\PyCharm2021.3\remote_sources\-947251016\1632927694\core:/usr/local/lib/python3.8/dist-packages/core
+    working_dir: /opt/project
+    privileged: true
+    ports:
+      - 222:222
+
+
+
+
+
