@@ -1,0 +1,256 @@
+vnoded[1]: 22:22:54.666266 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:54.666472 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'ip'
+vnoded[1]: 22:22:54.666492 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'link'
+vnoded[1]: 22:22:54.666505 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'set'
+vnoded[1]: 22:22:54.666517 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'lo'
+vnoded[1]: 22:22:54.666529 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'up'
+vnoded[1]: 22:22:54.666542 forkexec[vnode_cmd.c:358]: spawning 'ip'
+vnoded[1]: 22:22:54.666753 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'ip'; pid: 2; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:54.670023 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 2; cmdid: 0; status 0
+vnoded[1]: 22:22:54.670237 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:54.680145 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:54.680203 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'hostname'
+vnoded[1]: 22:22:54.680218 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'n7'
+vnoded[1]: 22:22:54.680231 forkexec[vnode_cmd.c:358]: spawning 'hostname'
+vnoded[1]: 22:22:54.680445 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'hostname'; pid: 3; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:54.682302 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 3; cmdid: 0; status 0
+vnoded[1]: 22:22:54.682544 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:54.702910 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:54.702968 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'mkdir'
+vnoded[1]: 22:22:54.702983 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '-p'
+vnoded[1]: 22:22:54.702995 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/var/run'
+vnoded[1]: 22:22:54.703007 forkexec[vnode_cmd.c:358]: spawning 'mkdir'
+vnoded[1]: 22:22:54.703237 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'mkdir'; pid: 4; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:54.705893 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 4; cmdid: 0; status 0
+vnoded[1]: 22:22:54.706099 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:54.716122 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:54.716179 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'mount'
+vnoded[1]: 22:22:54.716194 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '-n'
+vnoded[1]: 22:22:54.716206 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '--bind'
+vnoded[1]: 22:22:54.716219 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/tmp/pycore.43559/n7.conf/var.run'
+vnoded[1]: 22:22:54.716231 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/var/run'
+vnoded[1]: 22:22:54.716244 forkexec[vnode_cmd.c:358]: spawning 'mount'
+vnoded[1]: 22:22:54.716460 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'mount'; pid: 5; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:54.719886 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 5; cmdid: 0; status 0
+vnoded[1]: 22:22:54.720097 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:54.740258 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:54.740318 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'mkdir'
+vnoded[1]: 22:22:54.740334 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '-p'
+vnoded[1]: 22:22:54.740346 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/var/log'
+vnoded[1]: 22:22:54.740358 forkexec[vnode_cmd.c:358]: spawning 'mkdir'
+vnoded[1]: 22:22:54.740581 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'mkdir'; pid: 6; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:54.743315 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 6; cmdid: 0; status 0
+vnoded[1]: 22:22:54.743514 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:54.753478 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:54.753554 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'mount'
+vnoded[1]: 22:22:54.753571 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '-n'
+vnoded[1]: 22:22:54.753584 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '--bind'
+vnoded[1]: 22:22:54.753596 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/tmp/pycore.43559/n7.conf/var.log'
+vnoded[1]: 22:22:54.753609 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/var/log'
+vnoded[1]: 22:22:54.753621 forkexec[vnode_cmd.c:358]: spawning 'mount'
+vnoded[1]: 22:22:54.753838 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'mount'; pid: 7; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:54.757306 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 7; cmdid: 0; status 0
+vnoded[1]: 22:22:54.757517 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:56.224073 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:56.224149 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'ip'
+vnoded[1]: 22:22:56.224165 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'link'
+vnoded[1]: 22:22:56.224177 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'set'
+vnoded[1]: 22:22:56.224189 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'veth7.0.8dp'
+vnoded[1]: 22:22:56.224202 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'name'
+vnoded[1]: 22:22:56.224215 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'eth0'
+vnoded[1]: 22:22:56.224227 forkexec[vnode_cmd.c:358]: spawning 'ip'
+vnoded[1]: 22:22:56.224728 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'ip'; pid: 8; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:56.251212 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 8; cmdid: 0; status 0
+vnoded[1]: 22:22:56.251394 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:56.261659 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:56.261718 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'ethtool'
+vnoded[1]: 22:22:56.261733 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '-K'
+vnoded[1]: 22:22:56.261745 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'eth0'
+vnoded[1]: 22:22:56.261757 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'rx'
+vnoded[1]: 22:22:56.261770 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'off'
+vnoded[1]: 22:22:56.261782 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'tx'
+vnoded[1]: 22:22:56.261794 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'off'
+vnoded[1]: 22:22:56.261806 forkexec[vnode_cmd.c:358]: spawning 'ethtool'
+vnoded[1]: 22:22:56.262039 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'ethtool'; pid: 9; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:56.264512 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 9; cmdid: 0; status 0
+vnoded[1]: 22:22:56.264726 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:56.275148 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:56.275205 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'cat'
+vnoded[1]: 22:22:56.275221 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/sys/class/net/eth0/ifindex'
+vnoded[1]: 22:22:56.275234 forkexec[vnode_cmd.c:358]: spawning 'cat'
+vnoded[1]: 22:22:56.275464 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'cat'; pid: 10; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:56.276589 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 10; cmdid: 0; status 0
+vnoded[1]: 22:22:56.276673 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:56.286761 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:56.286817 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'cat'
+vnoded[1]: 22:22:56.286832 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/sys/class/net/eth0/address'
+vnoded[1]: 22:22:56.286845 forkexec[vnode_cmd.c:358]: spawning 'cat'
+vnoded[1]: 22:22:56.287089 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'cat'; pid: 11; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:56.288374 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 11; cmdid: 0; status 0
+vnoded[1]: 22:22:56.288669 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:56.323436 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:56.323504 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'ip'
+vnoded[1]: 22:22:56.323520 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'link'
+vnoded[1]: 22:22:56.323533 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'set'
+vnoded[1]: 22:22:56.323545 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'dev'
+vnoded[1]: 22:22:56.323557 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'eth0'
+vnoded[1]: 22:22:56.323569 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'address'
+vnoded[1]: 22:22:56.323581 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '00:00:00:aa:00:03'
+vnoded[1]: 22:22:56.323594 forkexec[vnode_cmd.c:358]: spawning 'ip'
+vnoded[1]: 22:22:56.323841 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'ip'; pid: 12; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:56.327145 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 12; cmdid: 0; status 0
+vnoded[1]: 22:22:56.327355 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:56.335505 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:56.335561 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'ip'
+vnoded[1]: 22:22:56.335577 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'address'
+vnoded[1]: 22:22:56.335590 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'change'
+vnoded[1]: 22:22:56.335602 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '10.0.1.2/24'
+vnoded[1]: 22:22:56.335614 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'dev'
+vnoded[1]: 22:22:56.335626 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'eth0'
+vnoded[1]: 22:22:56.335639 forkexec[vnode_cmd.c:358]: spawning 'ip'
+vnoded[1]: 22:22:56.335869 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'ip'; pid: 13; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:56.338928 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 13; cmdid: 0; status 0
+vnoded[1]: 22:22:56.339141 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:56.348654 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:56.348713 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'ip'
+vnoded[1]: 22:22:56.348729 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'address'
+vnoded[1]: 22:22:56.348742 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'change'
+vnoded[1]: 22:22:56.348754 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '2001:1::2/64'
+vnoded[1]: 22:22:56.348766 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'dev'
+vnoded[1]: 22:22:56.348779 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'eth0'
+vnoded[1]: 22:22:56.348792 forkexec[vnode_cmd.c:358]: spawning 'ip'
+vnoded[1]: 22:22:56.349019 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'ip'; pid: 14; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:56.352101 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 14; cmdid: 0; status 0
+vnoded[1]: 22:22:56.352313 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:56.362466 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:56.362521 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'sysctl'
+vnoded[1]: 22:22:56.362537 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '-w'
+vnoded[1]: 22:22:56.362549 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'net.ipv6.conf.eth0.keep_addr_on_down=1'
+vnoded[1]: 22:22:56.362562 forkexec[vnode_cmd.c:358]: spawning 'sysctl'
+vnoded[1]: 22:22:56.362782 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'sysctl'; pid: 15; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:56.364901 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 15; cmdid: 0; status 0
+vnoded[1]: 22:22:56.365136 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:22:56.375133 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:22:56.375189 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'ip'
+vnoded[1]: 22:22:56.375206 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'link'
+vnoded[1]: 22:22:56.375218 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'set'
+vnoded[1]: 22:22:56.375230 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'eth0'
+vnoded[1]: 22:22:56.375242 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'up'
+vnoded[1]: 22:22:56.375255 forkexec[vnode_cmd.c:358]: spawning 'ip'
+vnoded[1]: 22:22:56.375468 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'ip'; pid: 16; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:22:56.378657 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 16; cmdid: 0; status 0
+vnoded[1]: 22:22:56.378820 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:23:02.670328 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:23:02.670425 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'mkdir'
+vnoded[1]: 22:23:02.670450 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '-p'
+vnoded[1]: 22:23:02.670464 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/usr/local/etc/quagga'
+vnoded[1]: 22:23:02.670476 forkexec[vnode_cmd.c:358]: spawning 'mkdir'
+vnoded[1]: 22:23:02.670719 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'mkdir'; pid: 17; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:23:02.673529 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 17; cmdid: 0; status 0
+vnoded[1]: 22:23:02.673741 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:23:02.683808 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:23:02.683869 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'bash'
+vnoded[1]: 22:23:02.683884 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'ipforward.sh'
+vnoded[1]: 22:23:02.683897 forkexec[vnode_cmd.c:358]: spawning 'bash'
+vnoded[1]: 22:23:02.684122 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'bash'; pid: 18; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:23:02.709137 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 18; cmdid: 0; status 0
+vnoded[1]: 22:23:02.709367 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:23:02.779190 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:23:02.779258 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'mount'
+vnoded[1]: 22:23:02.779276 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '-n'
+vnoded[1]: 22:23:02.779288 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '--bind'
+vnoded[1]: 22:23:02.779301 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/tmp/pycore.43559/n7.conf/usr.local.etc.quagga'
+vnoded[1]: 22:23:02.779314 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/usr/local/etc/quagga'
+vnoded[1]: 22:23:02.779326 forkexec[vnode_cmd.c:358]: spawning 'mount'
+vnoded[1]: 22:23:02.779557 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'mount'; pid: 30; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:23:02.782946 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 30; cmdid: 0; status 0
+vnoded[1]: 22:23:02.783174 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:23:02.934122 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:23:02.934186 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'mkdir'
+vnoded[1]: 22:23:02.934202 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '-p'
+vnoded[1]: 22:23:02.934215 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/var/run/quagga'
+vnoded[1]: 22:23:02.934228 forkexec[vnode_cmd.c:358]: spawning 'mkdir'
+vnoded[1]: 22:23:02.934517 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'mkdir'; pid: 31; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:23:02.937229 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 31; cmdid: 0; status 0
+vnoded[1]: 22:23:02.937440 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:23:02.993995 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:23:02.994056 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'mount'
+vnoded[1]: 22:23:02.994073 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '-n'
+vnoded[1]: 22:23:02.994086 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '--bind'
+vnoded[1]: 22:23:02.994098 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/tmp/pycore.43559/n7.conf/var.run.quagga'
+vnoded[1]: 22:23:02.994111 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/var/run/quagga'
+vnoded[1]: 22:23:02.994124 forkexec[vnode_cmd.c:358]: spawning 'mount'
+vnoded[1]: 22:23:02.994362 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'mount'; pid: 32; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:23:02.997849 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 32; cmdid: 0; status 0
+vnoded[1]: 22:23:02.998059 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:23:03.108798 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:23:03.108834 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'bash'
+vnoded[1]: 22:23:03.108841 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'quaggaboot.sh'
+vnoded[1]: 22:23:03.108847 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'zebra'
+vnoded[1]: 22:23:03.108852 forkexec[vnode_cmd.c:358]: spawning 'bash'
+vnoded[1]: 22:23:03.109002 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'bash'; pid: 33; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:23:03.167406 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:23:03.167469 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'pidof'
+vnoded[1]: 22:23:03.167484 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'zebra'
+vnoded[1]: 22:23:03.167497 forkexec[vnode_cmd.c:358]: spawning 'pidof'
+vnoded[1]: 22:23:03.167715 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'pidof'; pid: 51; cmdid: 0; infd: 8; outfd: 9; errfd: 10
+vnoded[1]: 22:23:03.169609 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 51; cmdid: 0; status 0
+vnoded[1]: 22:23:03.169677 client_ioerror[vnode_server.c:43]: i/o error for client fd 7; deleting client
+vnoded[1]: 22:23:03.180851 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 33; cmdid: 0; status 0
+vnoded[1]: 22:23:03.180995 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:23:03.244464 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:23:03.244524 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'pidof'
+vnoded[1]: 22:23:03.244540 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: 'bgpd'
+vnoded[1]: 22:23:03.244552 forkexec[vnode_cmd.c:358]: spawning 'pidof'
+vnoded[1]: 22:23:03.244765 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: 'pidof'; pid: 52; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:23:03.247034 vnode_child_cb[vnode_server.c:149]: cmd completed normally: pid: 52; cmdid: 0; status 0
+vnoded[1]: 22:23:03.247237 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 22:28:14.034785 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:28:14.034858 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/bin/bash'
+vnoded[1]: 22:28:14.034875 forkexec[vnode_cmd.c:358]: spawning '/bin/bash'
+vnoded[1]: 22:28:14.035095 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: '/bin/bash'; pid: 53; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 22:29:03.139759 vnode_child_cb[vnode_server.c:161]: pid 47 not found in client command list: completed normally with status 0
+vnoded[1]: 22:29:08.490286 vnode_child_cb[vnode_server.c:161]: pid 39 not found in client command list: completed normally with status 0
+vnoded[1]: 22:29:40.659794 tlv_cmdsignal_cmdid[vnode_cmd.c:293]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:29:40.659888 tlv_cmdsignal_signum[vnode_cmd.c:308]: VNODE_TLV_SIGNUM: 1
+vnoded[1]: 22:29:40.659927 vnode_recv_cmdsignal[vnode_cmd.c:338]: sending pid 53 signal 1
+vnoded[1]: 22:29:40.660702 tlv_cmdsignal_cmdid[vnode_cmd.c:293]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:29:40.660759 tlv_cmdsignal_signum[vnode_cmd.c:308]: VNODE_TLV_SIGNUM: 18
+vnoded[1]: 22:29:40.660776 vnode_recv_cmdsignal[vnode_cmd.c:338]: sending pid 53 signal 18
+vnoded[1]: 22:29:40.660807 tlv_cmdsignal_cmdid[vnode_cmd.c:293]: VNODE_TLV_CMDID: 0
+vnoded[1]: 22:29:40.660823 tlv_cmdsignal_signum[vnode_cmd.c:308]: VNODE_TLV_SIGNUM: 1
+vnoded[1]: 22:29:40.660836 vnode_recv_cmdsignal[vnode_cmd.c:338]: sending pid 53 signal 1
+vnoded[1]: 22:29:40.661582 vnode_child_cb[vnode_server.c:149]: cmd completed due to signal: pid: 53; cmdid: 0; status 1
+vnoded[1]: 22:29:40.661798 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 23:01:37.849526 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 23:01:37.849599 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/bin/bash'
+vnoded[1]: 23:01:37.849616 forkexec[vnode_cmd.c:358]: spawning '/bin/bash'
+vnoded[1]: 23:01:37.849834 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: '/bin/bash'; pid: 99; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 23:02:00.594937 tlv_cmdsignal_cmdid[vnode_cmd.c:293]: VNODE_TLV_CMDID: 0
+vnoded[1]: 23:02:00.595035 tlv_cmdsignal_signum[vnode_cmd.c:308]: VNODE_TLV_SIGNUM: 1
+vnoded[1]: 23:02:00.595052 vnode_recv_cmdsignal[vnode_cmd.c:338]: sending pid 99 signal 1
+vnoded[1]: 23:02:00.595270 tlv_cmdsignal_cmdid[vnode_cmd.c:293]: VNODE_TLV_CMDID: 0
+vnoded[1]: 23:02:00.595287 tlv_cmdsignal_signum[vnode_cmd.c:308]: VNODE_TLV_SIGNUM: 18
+vnoded[1]: 23:02:00.595300 vnode_recv_cmdsignal[vnode_cmd.c:338]: sending pid 99 signal 18
+vnoded[1]: 23:02:00.595321 tlv_cmdsignal_cmdid[vnode_cmd.c:293]: VNODE_TLV_CMDID: 0
+vnoded[1]: 23:02:00.595333 tlv_cmdsignal_signum[vnode_cmd.c:308]: VNODE_TLV_SIGNUM: 1
+vnoded[1]: 23:02:00.595345 vnode_recv_cmdsignal[vnode_cmd.c:338]: sending pid 99 signal 1
+vnoded[1]: 23:02:00.595843 vnode_child_cb[vnode_server.c:149]: cmd completed due to signal: pid: 99; cmdid: 0; status 1
+vnoded[1]: 23:02:00.596889 vnode_child_cb[vnode_server.c:161]: pid 106 not found in client command list: completed due to signal with status 1
+vnoded[1]: 23:02:00.596971 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
+vnoded[1]: 23:40:28.149632 tlv_cmdreq_cmdid[vnode_cmd.c:42]: VNODE_TLV_CMDID: 0
+vnoded[1]: 23:40:28.149705 tlv_cmdreq_cmdarg[vnode_cmd.c:71]: VNODE_TLV_CMDARG: '/bin/bash'
+vnoded[1]: 23:40:28.149723 forkexec[vnode_cmd.c:358]: spawning '/bin/bash'
+vnoded[1]: 23:40:28.149946 vnode_process_cmdreq[vnode_cmd.c:459]: cmd: '/bin/bash'; pid: 111; cmdid: 0; infd: 7; outfd: 8; errfd: 9
+vnoded[1]: 23:41:11.602314 tlv_cmdsignal_cmdid[vnode_cmd.c:293]: VNODE_TLV_CMDID: 0
+vnoded[1]: 23:41:11.602437 tlv_cmdsignal_signum[vnode_cmd.c:308]: VNODE_TLV_SIGNUM: 1
+vnoded[1]: 23:41:11.602456 vnode_recv_cmdsignal[vnode_cmd.c:338]: sending pid 111 signal 1
+vnoded[1]: 23:41:11.603357 tlv_cmdsignal_cmdid[vnode_cmd.c:293]: VNODE_TLV_CMDID: 0
+vnoded[1]: 23:41:11.603411 tlv_cmdsignal_signum[vnode_cmd.c:308]: VNODE_TLV_SIGNUM: 18
+vnoded[1]: 23:41:11.603428 vnode_recv_cmdsignal[vnode_cmd.c:338]: sending pid 111 signal 18
+vnoded[1]: 23:41:11.603496 vnode_child_cb[vnode_server.c:149]: cmd completed due to signal: pid: 111; cmdid: 0; status 1
+vnoded[1]: 23:41:11.603548 tlv_cmdsignal_cmdid[vnode_cmd.c:293]: VNODE_TLV_CMDID: 0
+vnoded[1]: 23:41:11.603563 tlv_cmdsignal_signum[vnode_cmd.c:308]: VNODE_TLV_SIGNUM: 1
+vnoded[1]: 23:41:11.603576 vnode_recv_cmdsignal[vnode_cmd.c:348]: cmdid 0 not found for client 0x55754a802730
+vnoded[1]: 23:41:11.604882 vnode_child_cb[vnode_server.c:161]: pid 118 not found in client command list: completed due to signal with status 1
+vnoded[1]: 23:41:11.604949 client_ioerror[vnode_server.c:43]: i/o error for client fd 6; deleting client
