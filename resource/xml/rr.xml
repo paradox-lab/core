@@ -1,0 +1,533 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<scenario name="/tmp/tmpd1uocsbs">
+  <networks/>
+  <devices>
+    <device id="1" name="n1" icon="" canvas="0" type="router" class="" image="">
+      <position x="449.0" y="83.0" lat="47.57841196516647" lon="-122.12627406531143" alt="2.0"/>
+      <configservices>
+        <service name="IPForward"/>
+        <service name="zebra"/>
+        <service name="BGP"/>
+      </configservices>
+    </device>
+    <device id="2" name="n2" icon="" canvas="0" type="router" class="" image="">
+      <position x="281.0" y="180.0" lat="47.577530248050834" lon="-122.12853781982741" alt="2.0"/>
+      <configservices>
+        <service name="IPForward"/>
+        <service name="zebra"/>
+        <service name="BGP"/>
+      </configservices>
+    </device>
+    <device id="3" name="n3" icon="" canvas="0" type="router" class="" image="">
+      <position x="601.0" y="183.0" lat="47.57750297821261" lon="-122.12422590646364" alt="2.0"/>
+      <configservices>
+        <service name="IPForward"/>
+        <service name="zebra"/>
+        <service name="BGP"/>
+      </configservices>
+    </device>
+    <device id="4" name="n4" icon="" canvas="0" type="router" class="" image="">
+      <position x="352.0" y="372.0" lat="47.57578494977181" lon="-122.12758111404982" alt="2.0"/>
+      <configservices>
+        <service name="IPForward"/>
+        <service name="zebra"/>
+        <service name="BGP"/>
+      </configservices>
+    </device>
+    <device id="5" name="n5" icon="" canvas="0" type="router" class="" image="">
+      <position x="583.0" y="374.0" lat="47.57576676927525" lon="-122.12446845159036" alt="2.0"/>
+      <configservices>
+        <service name="IPForward"/>
+        <service name="zebra"/>
+        <service name="BGP"/>
+      </configservices>
+    </device>
+    <device id="6" name="n6" icon="" canvas="0" type="router" class="" image="">
+      <position x="645.0" y="28.0" lat="47.57891190126457" lon="-122.12363301837613" alt="2.0"/>
+      <configservices>
+        <service name="IPForward"/>
+        <service name="zebra"/>
+        <service name="BGP"/>
+      </configservices>
+    </device>
+    <device id="7" name="n7" icon="" canvas="0" type="router" class="" image="">
+      <position x="813.0" y="185.0" lat="47.57748479831257" lon="-122.12136926386015" alt="2.0"/>
+      <configservices>
+        <service name="IPForward"/>
+        <service name="zebra"/>
+        <service name="BGP"/>
+      </configservices>
+    </device>
+    <device id="8" name="n8" icon="" canvas="0" type="router" class="" image="">
+      <position x="671.0" y="504.0" lat="47.57458502345927" lon="-122.12328267541533" alt="2.0"/>
+      <configservices>
+        <service name="IPForward"/>
+        <service name="zebra"/>
+        <service name="BGP"/>
+      </configservices>
+    </device>
+    <device id="9" name="n9" icon="" canvas="0" type="router" class="" image="">
+      <position x="220.0" y="503.0" lat="47.57459411391349" lon="-122.12935977831239" alt="2.0"/>
+      <configservices>
+        <service name="IPForward"/>
+        <service name="zebra"/>
+        <service name="BGP"/>
+      </configservices>
+    </device>
+    <device id="10" name="n10" icon="" canvas="0" type="router" class="" image="">
+      <position x="121.0" y="158.0" lat="47.57773022643052" lon="-122.1306937765093" alt="2.0"/>
+      <configservices>
+        <service name="IPForward"/>
+        <service name="zebra"/>
+        <service name="BGP"/>
+      </configservices>
+    </device>
+  </devices>
+  <links>
+    <link node1="1" node2="6">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:00" ip4="10.0.0.1" ip4_mask="24" ip6="2001::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:01" ip4="10.0.0.2" ip4_mask="24" ip6="2001::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="3" node2="7">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:02" ip4="10.0.1.1" ip4_mask="24" ip6="2001:1::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:03" ip4="10.0.1.2" ip4_mask="24" ip6="2001:1::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="5" node2="8">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:04" ip4="10.0.2.1" ip4_mask="24" ip6="2001:2::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:05" ip4="10.0.2.2" ip4_mask="24" ip6="2001:2::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="4" node2="9">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:06" ip4="10.0.3.1" ip4_mask="24" ip6="2001:3::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:07" ip4="10.0.3.2" ip4_mask="24" ip6="2001:3::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="2" node2="10">
+      <iface1 id="0" name="eth0" mac="00:00:00:aa:00:08" ip4="10.0.4.1" ip4_mask="24" ip6="2001:4::1" ip6_mask="64"/>
+      <iface2 id="0" name="eth0" mac="00:00:00:aa:00:09" ip4="10.0.4.2" ip4_mask="24" ip6="2001:4::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="1" node2="4">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:0a" ip4="10.0.5.1" ip4_mask="24" ip6="2001:5::1" ip6_mask="64"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:0b" ip4="10.0.5.2" ip4_mask="24" ip6="2001:5::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="1" node2="5">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:0c" ip4="10.0.6.1" ip4_mask="24" ip6="2001:6::1" ip6_mask="64"/>
+      <iface2 id="1" name="eth1" mac="00:00:00:aa:00:0d" ip4="10.0.6.2" ip4_mask="24" ip6="2001:6::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="2" node2="4">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:0e" ip4="10.0.7.1" ip4_mask="24" ip6="2001:7::1" ip6_mask="64"/>
+      <iface2 id="2" name="eth2" mac="00:00:00:aa:00:0f" ip4="10.0.7.2" ip4_mask="24" ip6="2001:7::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="2" node2="5">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:10" ip4="10.0.8.1" ip4_mask="24" ip6="2001:8::1" ip6_mask="64"/>
+      <iface2 id="2" name="eth2" mac="00:00:00:aa:00:11" ip4="10.0.8.2" ip4_mask="24" ip6="2001:8::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="3" node2="4">
+      <iface1 id="1" name="eth1" mac="00:00:00:aa:00:12" ip4="10.0.9.1" ip4_mask="24" ip6="2001:9::1" ip6_mask="64"/>
+      <iface2 id="3" name="eth3" mac="00:00:00:aa:00:13" ip4="10.0.9.2" ip4_mask="24" ip6="2001:9::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="3" node2="5">
+      <iface1 id="2" name="eth2" mac="00:00:00:aa:00:14" ip4="10.0.10.1" ip4_mask="24" ip6="2001:10::1" ip6_mask="64"/>
+      <iface2 id="3" name="eth3" mac="00:00:00:aa:00:15" ip4="10.0.10.2" ip4_mask="24" ip6="2001:10::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+    <link node1="4" node2="5">
+      <iface1 id="4" name="eth4" mac="00:00:00:aa:00:16" ip4="10.0.11.1" ip4_mask="24" ip6="2001:11::1" ip6_mask="64"/>
+      <iface2 id="4" name="eth4" mac="00:00:00:aa:00:17" ip4="10.0.11.2" ip4_mask="24" ip6="2001:11::2" ip6_mask="64"/>
+      <options delay="0" bandwidth="0" loss="0.0" dup="0" jitter="0" unidirectional="0" buffer="0"/>
+    </link>
+  </links>
+  <configservice_configurations>
+    <service name="IPForward" node="1"/>
+    <service name="zebra" node="1">
+      <templates>
+        <template name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 10.0.0.1/24
+  ipv6 address 2001::1/64
+!
+interface eth1
+  ip address 10.0.5.1/24
+  ipv6 address 2001:5::1/64
+!
+interface eth2
+  ip address 10.0.6.1/24
+  ipv6 address 2001:6::1/64
+!
+!
+! BGP configuration
+!
+! You should configure the AS number below,
+! along with this router's peers.
+!
+router bgp 1
+  bgp router-id 10.0.0.1
+  redistribute connected
+  neighbor 10.0.6.2 remote-as 1
+  neighbor 10.0.5.2 remote-as 1
+  neighbor 10.0.0.2 remote-as 6
+
+
+hostname Router
+password zebra
+enable password zebra
+]]></template>
+      </templates>
+    </service>
+    <service name="BGP" node="1"/>
+    <service name="IPForward" node="2"/>
+    <service name="zebra" node="2">
+      <templates>
+        <template name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 10.0.4.1/24
+  ipv6 address 2001:4::1/64
+!
+interface eth1
+  ip address 10.0.7.1/24
+  ipv6 address 2001:7::1/64
+!
+interface eth2
+  ip address 10.0.8.1/24
+  ipv6 address 2001:8::1/64
+!
+!
+! BGP configuration
+!
+! You should configure the AS number below,
+! along with this router's peers.
+!
+router bgp 1
+  bgp router-id 10.0.4.1
+  redistribute connected
+  neighbor 10.0.7.2 remote-as 1
+  neighbor 10.0.8.2 remote-as 1
+  neighbor 10.0.4.2 remote-as 10
+hostname Router
+password zebra
+enable password zebra
+]]></template>
+      </templates>
+    </service>
+    <service name="BGP" node="2"/>
+    <service name="IPForward" node="3"/>
+    <service name="zebra" node="3">
+      <templates>
+        <template name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 10.0.1.1/24
+  ipv6 address 2001:1::1/64
+!
+interface eth1
+  ip address 10.0.9.1/24
+  ipv6 address 2001:9::1/64
+!
+interface eth2
+  ip address 10.0.10.1/24
+  ipv6 address 2001:10::1/64
+!
+!
+! BGP configuration
+!
+! You should configure the AS number below,
+! along with this router's peers.
+!
+router bgp 1
+  bgp router-id 10.0.1.1
+  redistribute connected
+  neighbor 10.0.9.2 remote-as 1
+  neighbor 10.0.10.2 remote-as 1
+  neighbor 10.0.1.2 remote-as 7
+hostname Router
+password zebra
+enable password zebra
+]]></template>
+      </templates>
+    </service>
+    <service name="BGP" node="3"/>
+    <service name="IPForward" node="4"/>
+    <service name="zebra" node="4">
+      <templates>
+        <template name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 10.0.3.1/24
+  ipv6 address 2001:3::1/64
+!
+interface eth1
+  ip address 10.0.5.2/24
+  ipv6 address 2001:5::2/64
+!
+interface eth2
+  ip address 10.0.7.2/24
+  ipv6 address 2001:7::2/64
+!
+interface eth3
+  ip address 10.0.9.2/24
+  ipv6 address 2001:9::2/64
+!
+interface eth4
+  ip address 10.0.11.1/24
+  ipv6 address 2001:11::1/64
+!
+!
+! BGP configuration
+!
+! You should configure the AS number below,
+! along with this router's peers.
+!
+router bgp 1
+  bgp router-id 10.0.3.1
+  redistribute connected
+  bgp cluster-id 10.0.0.0
+  neighbor 10.0.11.2 remote-as 1
+  neighbor 10.0.11.2 description RR2
+
+  neighbor 10.0.5.1 remote-as 1
+!  neighbor 10.0.5.1 description client1
+!  neighbor 10.0.5.1 route-reflector-client
+  neighbor 10.0.7.1 remote-as 1
+  neighbor 10.0.7.1 description client2
+  neighbor 10.0.7.1 route-reflector-client
+  neighbor 10.0.9.1 remote-as 1
+  neighbor 10.0.9.1 description client3
+  neighbor 10.0.9.1 route-reflector-client
+
+  neighbor 10.0.3.2 remote-as 9
+  neighbor 10.0.3.2 prefix-list allowed-in in
+  ip prefix-list allowed-in seq 10 permit any
+
+hostname Router
+password zebra
+enable password zebra
+]]></template>
+      </templates>
+    </service>
+    <service name="BGP" node="4"/>
+    <service name="IPForward" node="5"/>
+    <service name="zebra" node="5">
+      <templates>
+        <template name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 10.0.2.1/24
+  ipv6 address 2001:2::1/64
+!
+interface eth1
+  ip address 10.0.6.2/24
+  ipv6 address 2001:6::2/64
+!
+interface eth2
+  ip address 10.0.8.2/24
+  ipv6 address 2001:8::2/64
+!
+interface eth3
+  ip address 10.0.10.2/24
+  ipv6 address 2001:10::2/64
+!
+interface eth4
+  ip address 10.0.11.2/24
+  ipv6 address 2001:11::2/64
+!
+!
+! BGP configuration
+!
+! You should configure the AS number below,
+! along with this router's peers.
+!
+router bgp 1
+  bgp router-id 10.0.2.1
+  redistribute connected
+  bgp cluster-id 10.0.0.0
+  neighbor 10.0.11.1 remote-as 1
+  neighbor 10.0.11.1 description RR2
+
+  neighbor 10.0.6.1 remote-as 1
+!  neighbor 10.0.6.1 description client1
+!  neighbor 10.0.6.1 route-reflector-client
+  neighbor 10.0.8.1 remote-as 1
+  neighbor 10.0.8.1 description client2
+  neighbor 10.0.8.1 route-reflector-client
+  neighbor 10.0.10.1 remote-as 1
+  neighbor 10.0.10.1 description client3
+  neighbor 10.0.10.1 route-reflector-client
+
+  neighbor 10.0.2.2 remote-as 8
+  neighbor 10.0.2.2 prefix-list allowed-in in
+  ip prefix-list allowed-in seq 10 permit any
+
+hostname Router
+password zebra
+enable password zebra
+]]></template>
+      </templates>
+    </service>
+    <service name="BGP" node="5"/>
+    <service name="IPForward" node="6"/>
+    <service name="zebra" node="6">
+      <templates>
+        <template name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 10.0.0.2/24
+  ipv6 address 2001::2/64
+!
+!
+! BGP configuration
+!
+! You should configure the AS number below,
+! along with this router's peers.
+!
+router bgp 6
+  bgp router-id 10.0.0.2
+  redistribute connected
+  neighbor 10.0.0.1 remote-as 1
+hostname Router
+password zebra
+enable password zebra
+]]></template>
+      </templates>
+    </service>
+    <service name="BGP" node="6"/>
+    <service name="IPForward" node="7"/>
+    <service name="zebra" node="7">
+      <templates>
+        <template name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 10.0.1.2/24
+  ipv6 address 2001:1::2/64
+!
+!
+! BGP configuration
+!
+! You should configure the AS number below,
+! along with this router's peers.
+!
+router bgp 7
+  bgp router-id 10.0.1.2
+  redistribute connected
+  neighbor 10.0.1.1 remote-as 1
+hostname Router
+password zebra
+enable password zebra
+]]></template>
+      </templates>
+    </service>
+    <service name="BGP" node="7"/>
+    <service name="IPForward" node="8"/>
+    <service name="zebra" node="8">
+      <templates>
+        <template name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 10.0.2.2/24
+  ipv6 address 2001:2::2/64
+!
+!
+! BGP configuration
+!
+! You should configure the AS number below,
+! along with this router's peers.
+!
+router bgp 8
+  bgp router-id 10.0.2.2
+  redistribute connected
+  neighbor 10.0.2.1 remote-as 1
+hostname Router
+password zebra
+enable password zebra
+]]></template>
+      </templates>
+    </service>
+    <service name="BGP" node="8"/>
+    <service name="IPForward" node="9"/>
+    <service name="zebra" node="9">
+      <templates>
+        <template name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 10.0.3.2/24
+  ipv6 address 2001:3::2/64
+!
+!
+! BGP configuration
+!
+! You should configure the AS number below,
+! along with this router's peers.
+!
+router bgp 9
+  bgp router-id 10.0.3.2
+  redistribute connected
+  neighbor 10.0.3.1 remote-as 1hostname Router
+password zebra
+enable password zebra
+]]></template>
+      </templates>
+    </service>
+    <service name="BGP" node="9"/>
+    <service name="IPForward" node="10"/>
+    <service name="zebra" node="10">
+      <templates>
+        <template name="/usr/local/etc/quagga/Quagga.conf"><![CDATA[interface eth0
+  ip address 10.0.4.2/24
+  ipv6 address 2001:4::2/64
+!
+!
+! BGP configuration
+!
+! You should configure the AS number below,
+! along with this router's peers.
+!
+router bgp 10
+  bgp router-id 10.0.4.2
+  redistribute connected
+  neighbor 10.0.4.1 remote-as 1
+hostname Router
+password zebra
+enable password zebra
+]]></template>
+      </templates>
+    </service>
+    <service name="BGP" node="10"/>
+  </configservice_configurations>
+  <session_origin lat="47.579166412353516" lon="-122.13232421875" alt="2.0" scale="150.0"/>
+  <session_options>
+    <configuration name="controlnet" value=""/>
+    <configuration name="controlnet0" value=""/>
+    <configuration name="controlnet1" value=""/>
+    <configuration name="controlnet2" value=""/>
+    <configuration name="controlnet3" value=""/>
+    <configuration name="controlnet_updown_script" value=""/>
+    <configuration name="enablerj45" value="1"/>
+    <configuration name="preservedir" value="0"/>
+    <configuration name="enablesdt" value="0"/>
+    <configuration name="sdturl" value="tcp://127.0.0.1:50000/"/>
+    <configuration name="ovs" value="0"/>
+    <configuration name="platform_id_start" value="1"/>
+    <configuration name="nem_id_start" value="1"/>
+    <configuration name="link_enabled" value="1"/>
+    <configuration name="loss_threshold" value="30"/>
+    <configuration name="link_interval" value="1"/>
+    <configuration name="link_timeout" value="4"/>
+    <configuration name="mtu" value="0"/>
+  </session_options>
+  <session_metadata>
+    <configuration name="global_options" value="interface_names=no ip_addresses=yes ipv6_addresses=yes node_labels=yes link_labels=yes show_api=no background_images=no annotations=yes grid=yes traffic_start=0"/>
+    <configuration name="canvas c1" value="{name {Canvas1}}"/>
+  </session_metadata>
+  <default_services>
+    <node type="mdr">
+      <service name="zebra"/>
+      <service name="OSPFv3MDR"/>
+      <service name="IPForward"/>
+    </node>
+    <node type="PC">
+      <service name="DefaultRoute"/>
+    </node>
+    <node type="prouter"/>
+    <node type="router">
+      <service name="zebra"/>
+      <service name="OSPFv2"/>
+      <service name="OSPFv3"/>
+      <service name="IPForward"/>
+    </node>
+    <node type="host">
+      <service name="DefaultRoute"/>
+      <service name="SSH"/>
+    </node>
+  </default_services>
+</scenario>
