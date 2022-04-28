@@ -45,6 +45,7 @@ RUN sed -i s@/archive.ubuntu.com/@/mirrors.aliyun.com/@g /etc/apt/sources.list &
     xterm \
     ssh \
     psmisc \
+    telnet \
     && apt-get clean
 
 RUN pip3 config set global.index-url https://mirrors.aliyun.com/pypi/simple \

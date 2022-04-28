@@ -1,0 +1,41 @@
+# 为在Pycharm调试开发专门编写的docker-compose
+version: "3.9"
+
+services:
+  daemon1:
+    image: paradox233/core
+    container_name: core1
+    environment:
+      - DISPLAY=:0
+    volumes:
+      - /mnt/c/lzx/core:/opt/project
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    working_dir: /opt/project
+    privileged: true
+    ports:
+      - 222:222
+  daemon2:
+    image: paradox233/core
+    container_name: core2
+    environment:
+      - DISPLAY=:0
+    volumes:
+      - /mnt/c/lzx/core:/opt/project
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    working_dir: /opt/project
+    privileged: true
+  daemon3:
+    image: paradox233/core
+    container_name: core3
+    environment:
+      - DISPLAY=:0
+    volumes:
+      - /mnt/c/lzx/core:/opt/project
+      - /tmp/.X11-unix:/tmp/.X11-unix
+    working_dir: /opt/project
+    privileged: true
+
+
+
+
+

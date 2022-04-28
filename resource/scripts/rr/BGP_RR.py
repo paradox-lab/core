@@ -1,5 +1,5 @@
 from core.api.grpc import client
-from core.api.grpc.wrappers import ConfigServiceData, Position, NodeServiceData
+from core.api.grpc.wrappers import ConfigServiceData, Position
 
 # interface helper
 iface_helper = client.InterfaceHelper(ip4_prefix="10.0.0.0/24", ip6_prefix="2001::/64")
@@ -25,7 +25,7 @@ positions = [(449.0, 83.0),
 
 for i, p in enumerate(positions, 1):
     position = Position(x=p[0], y=p[1])
-    node = session.add_node(i, name=f"n{i}", position=position)
+    node = session.add_node(i, name=f"n{i}", model="router", position=position)
     node.services.clear()
     node.config_services.add("zebra")
     node.config_services.add("BGP")
