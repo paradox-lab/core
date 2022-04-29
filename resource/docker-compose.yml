@@ -13,7 +13,7 @@ services:
     working_dir: /opt/project
     privileged: true
     ports:
-      - 222:222
+      - 223:222
   daemon2:
     image: paradox233/core
     container_name: core2
