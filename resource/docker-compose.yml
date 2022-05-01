@@ -3,7 +3,7 @@ version: "3.9"
 
 services:
   daemon1:
-    image: paradox233/core
+    image: paradox233/core:2022.4.29
     container_name: core1
     environment:
       - DISPLAY=:0
@@ -13,9 +13,9 @@ services:
     working_dir: /opt/project
     privileged: true
     ports:
-      - 223:222
+      - 223:223
   daemon2:
-    image: paradox233/core
+    image: paradox233/core:2022.4.29
     container_name: core2
     environment:
       - DISPLAY=:0
@@ -25,7 +25,7 @@ services:
     working_dir: /opt/project
     privileged: true
   daemon3:
-    image: paradox233/core
+    image: paradox233/core:2022.4.29
     container_name: core3
     environment:
       - DISPLAY=:0
