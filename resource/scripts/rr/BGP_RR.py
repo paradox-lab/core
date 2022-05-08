@@ -1,5 +1,5 @@
 from core.api.grpc import client
-from core.api.grpc.wrappers import ConfigServiceData, Position
+from core.api.grpc.wrappers import ConfigServiceData, Position, Interface
 
 # interface helper
 iface_helper = client.InterfaceHelper(ip4_prefix="10.0.0.0/24", ip6_prefix="2001::/64")
